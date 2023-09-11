@@ -1,4 +1,4 @@
-// This file is part of the DSharpPlus project.
+﻿// This file is part of the DSharpPlus project.
 //
 // Copyright (c) 2015 Mike Santiago
 // Copyright (c) 2016-2023 DSharpPlus Contributors
@@ -25,6 +25,7 @@ using System.Runtime.CompilerServices;
 
 [assembly: InternalsVisibleTo("DSharpPlus.CommandsNext")]
 [assembly: InternalsVisibleTo("DSharpPlus.SlashCommands")]
+[assembly: InternalsVisibleTo("DSharpPlus.BetterHosting")]
 [assembly: InternalsVisibleTo("DSharpPlus.Interactivity")]
 [assembly: InternalsVisibleTo("DSharpPlus.VoiceNext")]
 [assembly: InternalsVisibleTo("DSharpPlus.Lavalink")]
